@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>熊貓問卷調查</title>
+    <base target="_blank" />
+    <!-- page icon -->
+    <link rel="shortcut icon" href="./pandaIcon.png" />
+    <link rel="bookmark" href="./pandaIcon.png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>熊貓問卷調查</h1>
+    <p>請依序輸入資料，並送出表單&#10084;</p>
+    <form action="" method="">
+      <label for="myname">姓名:</label>
+      <input
+        id="myname"
+        type="text"
+        name="InputName"
+        placeholder="請輸入真實姓名"
+      />
+      <br />
+      <label for="gender">性別:</label>
+      <select name="gender" id="gender">
+        <option></option>
+        <option value="male">男性</option>
+        <option value="female">女性</option>
+        <option value="other">其他</option>
+      </select>
+      <br />
+      <label for="tele">電話:</label>
+      <input id="tele" type="text" name="telephone" />
+      <br />
+      <label for="email">信箱:</label>
+      <input id="email" type="email" name="email" />
+      <br />
+      <label for="age">年齡:</label>
+      <input id="age" type="number" name="age" min="0" max="100" />
+      <br />
+      <input type="checkbox" id="checkbox" name="news" value="newspaper" />
+      <label for="checkbox">訂閱熊貓電子報</label>
+      <br />
+      <label for="area">地區:</label>
+      <input list="arealist" type="text" name="area" id="area" />
+      <datalist id="arealist">
+        <option value="基隆市">基隆(提示用)</option>
+        <option value="台北市">台北(提示用)</option>
+        <option value="新北市">新北(提示用)</option>
+        <option value="台中市">台中(提示用)</option>
+      </datalist>
+      <br />
+      <label for="suggestion">給網站的建議:</label>
+      <br />
+      <textarea
+        name="suggestion"
+        id="suggestion"
+        cols="30"
+        rows="10"
+        placeholder="感謝提供建議!"
+      ></textarea>
+      <br />
+      <button type="submit">提出表單</button>
+    </form>
+    <hr />
+    <h1>其他好用的網站</h1>
+    <a href="http://www.google.com">Google首頁</a>
+    <a href="https://www.youtube.com/">Youtube首頁</a>
+  </body>
+</html>

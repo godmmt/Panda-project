@@ -1,0 +1,10 @@
+header {
+  background-color: aqua;
+  h1 {
+    color: $themeColor;
+    // 使用變數
+  }
+  &:hover {
+    background-color: yellow;
+  }
+}

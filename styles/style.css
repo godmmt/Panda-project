@@ -1,0 +1,21 @@
+header {
+  background-color: aqua;
+}
+header h1 {
+  color: blue;
+}
+header:hover {
+  background-color: yellow;
+}
+
+div.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic {
+  width: 200px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

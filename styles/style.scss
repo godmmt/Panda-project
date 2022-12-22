@@ -1,0 +1,20 @@
+$themeColor: blue;
+// 自訂變數名稱
+
+@import './header';
+
+// 命名一個mixin為flexbox
+@mixin flexbox($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+div.link {
+  @include flexbox(column);
+}
+
+.pic {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}
