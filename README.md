@@ -11,4 +11,5 @@
 
 ![熊貓臉](./panda1.jpg)
 ![熊貓](./panda2.jpg)
+![熊貓LOGO](./pandaIcon.png)
 請大家多多愛護可愛的熊貓
