@@ -10,4 +10,5 @@
 [上課連結](https://www.udemy.com/course/wilson-full-stack-web-development/)
 
 ![熊貓臉](./panda1.jpg)
+![熊貓](./panda2.jpg)
 請大家多多愛護可愛的熊貓
